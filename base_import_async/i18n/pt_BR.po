@@ -1,0 +1,101 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_import_async
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: base_import_async
+#: code:addons/base_import_async/models/queue_job.py:0
+#, python-format
+msgid "Attachment"
+msgstr "Anexo"
+
+#. module: base_import_async
+#: model:ir.model,name:base_import_async.model_base_import_import
+#, fuzzy
+msgid "Base Import"
+msgstr "Importação base"
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__display_name
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__display_name
+msgid "Display Name"
+msgstr "Exibir Nome"
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__id
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_import_async
+#: code:addons/base_import_async/models/base_import_import.py:0
+#, fuzzy, python-format
+msgid "Import %s from file %s"
+msgstr "Importar %s do %s de arquivos"
+
+#. module: base_import_async
+#: code:addons/base_import_async/models/base_import_import.py:0
+#, fuzzy, python-format
+msgid "Import %s from file %s - #%s - lines %s to %s"
+msgstr "Importação %s de %s de arquivos - #%s - linhas %s para %s"
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/xml/import.xml:0
+#, fuzzy, python-format
+msgid "Import in the background"
+msgstr "Importação em segundo plano"
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import____last_update
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: base_import_async
+#: model:ir.model,name:base_import_async.model_queue_job
+#, fuzzy
+msgid "Queue Job"
+msgstr "Trabalho na fila"
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/xml/import.xml:0
+#, fuzzy, python-format
+msgid ""
+"When checked, the import will be executed as a background job, after "
+"splitting your file in small chunks that will be processed independently. "
+"Use this to import very large files."
+msgstr ""
+"Quando verificada, a importação será executada como um trabalho de fundo, "
+"depois de dividir seu arquivo em pequenos pedaços que serão processados "
+"de forma independente. Use isso para importar arquivos muito grandes."
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/js/import.js:0
+#, fuzzy, python-format
+msgid "You can check the status of this job in menu 'Queue / Jobs'."
+msgstr ""
+"Você pode verificar o status deste trabalho no menu 'Fila / Empregos'."
+
+#. module: base_import_async
+#. openerp-web
+#: code:addons/base_import_async/static/src/js/import.js:0
+#, fuzzy, python-format
+msgid "Your request is being processed"
+msgstr "Sua solicitação está sendo processada"
