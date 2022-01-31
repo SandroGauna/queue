@@ -1,0 +1,145 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_export_async
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sandro Gauna <sgeboxinfo@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: base_export_async
+#: code:addons/base_export_async/models/delay_export.py:112
+#, fuzzy, python-format
+msgid ""
+"\n"
+"                <p>Your export is available <a href=\"{}\">here</a>.</p>\n"
+"                <p>It will be automatically deleted the {}.</p>\n"
+"                <p>&nbsp;</p>\n"
+"                <p><span style=\"color: #808080;\">\n"
+"                This is an automated message please do not reply.\n"
+"                </span></p>\n"
+"                "
+msgstr ""
+"\n"
+"                <p>Sua exportação está disponível <a href=\"{}\">aqui</a>.</p>\n"
+"                <p>Ele será automaticamente excluído do {}.</p>\n"
+"                <p> </p>\n"
+"                <p><span style=\"color: #808080;\">Esta é uma mensagem automatizada, por favor, não responda.                </span></p>\n"
+"                "
+
+#. module: base_export_async
+#. openerp-web
+#: code:addons/base_export_async/static/src/xml/base.xml:9
+#, fuzzy, python-format
+msgid "(You will receive the export by email)"
+msgstr "(Você receberá a exportação por e-mail)"
+
+#. module: base_export_async
+#: model:ir.model,name:base_export_async.model_delay_export
+#, fuzzy
+msgid "Allow to delay the export"
+msgstr "Permitir atrasar a exportação"
+
+#. module: base_export_async
+#. openerp-web
+#: code:addons/base_export_async/static/src/xml/base.xml:9
+#, fuzzy, python-format
+msgid "Asynchronous export"
+msgstr "Exportação assíncrola"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: base_export_async
+#: model:ir.actions.server,name:base_export_async.to_delete_attachment_ir_actions_server
+#: model:ir.cron,cron_name:base_export_async.to_delete_attachment
+#: model:ir.cron,name:base_export_async.to_delete_attachment
+#, fuzzy
+msgid "Delete Generated Exports"
+msgstr "Excluir exportações geradas"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__display_name
+msgid "Display Name"
+msgstr "Exibir Nome"
+
+#. module: base_export_async
+#: code:addons/base_export_async/models/delay_export.py:110
+#, fuzzy, python-format
+msgid "Export {} {}"
+msgstr "{} {} de exportação"
+
+#. module: base_export_async
+#. openerp-web
+#: code:addons/base_export_async/static/src/js/data_export.js:47
+#, python-format
+msgid "External ID"
+msgstr "ID Externo"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação Feita em"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__write_uid
+msgid "Last Updated by"
+msgstr "Última Atualização por"
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__write_date
+msgid "Last Updated on"
+msgstr "Última Atualização em"
+
+#. module: base_export_async
+#. openerp-web
+#: code:addons/base_export_async/static/src/js/data_export.js:39
+#, python-format
+msgid "Please select fields to export..."
+msgstr "Por favor, selecione os campos para exportar..."
+
+#. module: base_export_async
+#: code:addons/base_export_async/models/delay_export.py:42
+#, fuzzy, python-format
+msgid "The user doesn't have an email address."
+msgstr "O usuário não tem um endereço de e-mail."
+
+#. module: base_export_async
+#: model:ir.model.fields,field_description:base_export_async.field_delay_export__user_id
+msgid "User"
+msgstr "Usuário"
+
+#. module: base_export_async
+#: code:addons/base_export_async/models/delay_export.py:29
+#, fuzzy, python-format
+msgid "You must set an email address to your user."
+msgstr "Você deve definir um endereço de e-mail para o seu usuário."
+
+#. module: base_export_async
+#. openerp-web
+#: code:addons/base_export_async/static/src/js/data_export.js:91
+#, fuzzy, python-format
+msgid "You will receive the export file by email as soon as it is finished."
+msgstr "Você receberá o arquivo de exportação por e-mail assim que ele estiver concluído."
